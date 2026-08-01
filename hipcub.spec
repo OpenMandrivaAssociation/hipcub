@@ -3,7 +3,7 @@
 
 Name:		hipcub
 Version:	7.14.0
-Release:	1
+Release:	2
 Summary:	CUB-like HIP wrappers on rocPRIM (header-only)
 License:	BSD-3-Clause
 Group:		Development/C++
@@ -21,7 +21,6 @@ BuildRequires:	rocm-hip-devel
 BuildRequires:	clang >= %{rocm_llvm_maj_ver}
 BuildRequires:	rocprim-devel
 
-ExclusiveArch:	%{x86_64} %{aarch64}
 
 %description
 hipCUB provides a CUB-like API on rocPRIM. Header-only. GPU targets include gfx803.
