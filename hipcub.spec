@@ -1,14 +1,14 @@
-# CUB-like HIP wrappers on rocPRIM (header-only) (TheRock 10.0)
+# CUB-like HIP wrappers on rocPRIM (header-only) (TheRock 10.1)
 %global debug_package %{nil}
 
 Name:		hipcub
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	CUB-like HIP wrappers on rocPRIM (header-only)
 License:	BSD-3-Clause
 Group:		Development/C++
 URL:		https://github.com/ROCm/rocm-libraries
-Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.0/hipcub.tar.gz#/hipcub-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.1/hipcub.tar.gz#/hipcub-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
